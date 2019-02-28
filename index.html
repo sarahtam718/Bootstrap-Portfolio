@@ -31,19 +31,36 @@
                 </div>
               </nav>  
         <!-- about me card -->
-        <div class="container" style="margin-top: 20px">
+        <!-- wasn't able to float text next to picture, so tried something else -->
+        <!-- <div class="container" style="margin-top: 20px">
               <div class="card">
                     <div class="card-body">
-                        <h1 class="text-info">About Me</h1>
-                        <!-- how to float text next to picture? -->
+                        <h1 class="text-info" style="border-bottom: 2px solid lightgray">About Me</h1>
                         <img src="./images/P1010013.JPG" style="width: 250px" class="img-thumbnail img-fluid float-md-lg-left" alt="Responsive image">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis tempora ipsum nemo voluptates excepturi nam maxime delectus iusto tenetur ea. Velit, ex. Repellat voluptatibus ullam totam expedita architecto porro? Beatae.</p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur omnis dolores soluta molestias ratione odio ad recusandae! Excepturi quis ducimus unde quasi. Nostrum velit omnis eos vitae accusantium quos ipsam.</p>
                     </div>
               </div>
-         </div>
-  <nav class="navbar sticky-bottom fixed-bottom navbar-info bg-light text-center">
-      <a>Copyright 2019</a>
+         </div> -->
+<!-- some of this container's code is courtesy of Dave Meneses -->
+         <div class="container" style="padding-top: 20px">
+            <div class="jumbotron" style="padding-top: 2rem; padding-bottom: 2rem">
+              <h1>About</h1>
+              <hr class="my-4" />
+              <div class="row" style="width: 960px"></div>
+               <!-- not sure why the image isn't taking up the full screen at the smaller viewports; i could make a separate media query to override the bootstrap -->
+              <img
+                src="./images/P1010013.JPG" 
+                class="img-responsive margin-right: 10px"
+                style="float: left; margin-right: 10px; width: 250px">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis tempora ipsum nemo voluptates excepturi nam maxime delectus iusto tenetur ea. Velit, ex. Repellat voluptatibus ullam totam expedita architecto porro? Beatae.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur omnis dolores soluta molestias ratione odio ad recusandae! Excepturi quis ducimus unde quasi. Nostrum velit omnis eos vitae accusantium quos ipsam.</p>     
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur omnis dolores soluta molestias ratione odio ad recusandae! Excepturi quis ducimus unde quasi. Nostrum velit omnis eos vitae accusantium quos ipsam.</p>     
+            </div>
+          </div>
+  <!-- not sure why the text isn't centering -->
+  <nav class="navbar sticky-bottom fixed-bottom navbar-info bg-light" style="border-top: 3px solid darkgray">
+      <a style="font-size: 12px; text-align: center;">Copyright © 2019</a>
     </nav>          
 </body>
 
